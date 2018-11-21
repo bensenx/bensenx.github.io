@@ -1,7 +1,7 @@
 ---
 title: "Felipe Castillo"
 collection: teaching
-type: "Glazer"
+type: "Forklift, Glazer"
 permalink: /teaching/Felipe
 venue: "Glazing Station"
 date: 2018-01-01

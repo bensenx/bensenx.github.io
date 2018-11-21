@@ -1,7 +1,7 @@
 ---
-title: "Gerardo"
+title: "Gerardo Centeno"
 collection: teaching
-type: "Helper, BJM operator"
+type: "Helper, Assistant BJM Operator"
 permalink: /teaching/Gerardo
 venue: "BJM Station, Glazing Station"
 date: 2018-01-01
