@@ -4,7 +4,7 @@ collection: teaching
 type: "Assempler"
 permalink: /teaching/Jorge
 venue: "Assemply Station"
-date: 2018-01-01
+date: 2018-01-29
 location:
 ---
 

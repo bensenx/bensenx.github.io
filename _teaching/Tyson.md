@@ -4,7 +4,7 @@ collection: teaching
 type: "BJM operator"
 permalink: /teaching/Tyson
 venue: "Material Cuting Station"
-date: 2018-11-20
+date: 2018-01-30
 location:
 ---
 

@@ -4,7 +4,7 @@ collection: teaching
 type: "Supervisor"
 permalink: /teaching/Angel
 venue: "Management"
-date: 2018-01-01
+date: 2018-01-31
 location:
 ---
 

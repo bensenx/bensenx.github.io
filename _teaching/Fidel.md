@@ -4,7 +4,7 @@ collection: teaching
 type: "Technician"
 permalink: /teaching/Fidel
 venue: "Machinary technician, Door Station"
-date: 2018-01-01
+date: 2018-01-30
 location:
 ---
 

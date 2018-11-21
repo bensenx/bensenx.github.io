@@ -4,7 +4,7 @@ collection: teaching
 type: "Welder Operator"
 permalink: /teaching/Jose
 venue: "Welding/Cleaning Station"
-date: 2018-01-01
+date: 2018-01-30
 location:
 ---
 

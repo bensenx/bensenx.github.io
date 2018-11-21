@@ -4,7 +4,7 @@ collection: teaching
 type: "Helper, Hardware Assembler"
 permalink: /teaching/Cesar
 venue: "Hardware, Glazing beads cuting, Glazing Stations"
-date: 2018-01-01
+date: 2018-01-29
 location:
 ---
 

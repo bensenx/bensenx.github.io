@@ -4,7 +4,7 @@ collection: teaching
 type: "Forklift, Glazer"
 permalink: /teaching/Felipe
 venue: "Glazing Station"
-date: 2018-01-01
+date: 2018-01-29
 location:
 ---
 
