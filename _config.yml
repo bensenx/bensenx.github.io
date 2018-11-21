@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Eurotek"
-  avatar           : "<br/><img src='/images/euroteklogo.png'>"
+  avatar           : "{{site.url}}{{site.baseurl}}/images/tyson.jpg"
   bio              : "Performance, Design, Aesthetics"
   location         : "14255 Elsworth, Moreno Valley"
   employer         : "http://eurotekwindows.com/"
