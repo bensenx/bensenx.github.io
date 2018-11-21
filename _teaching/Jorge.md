@@ -1,8 +1,8 @@
 ---
-title: "Fidel Munoz"
+title: "Jorge Munoz"
 collection: teaching
 type: "Assempler"
-permalink: /teaching/Fidel
+permalink: /teaching/Jorge
 venue: "Assemply Station"
 date: 2018-01-01
 location:
