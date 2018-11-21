@@ -6,10 +6,9 @@ permalink: /teaching/Tyson
 venue: "Material Cuting Station"
 date: 2018-11-20
 location:
-header:
-  image: "<br/><img src='/images/tyson.jpg'>"
 ---
 
+{% include figure image_path="/images/tyson.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 
 Tyson is our machine operator for the BJM. He has done an excellent job at learning the machine’s capabilities, as well as learning the programming for the functions it carries out. He is respectful, trustworthy and dedicated. He has a great attitude, and is always willing to help and teach others what he knows. He is also an individual who is very eager to learn, and that will only continue to propel him further in his success.
 Here is his main achievements:
