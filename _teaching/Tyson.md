@@ -7,7 +7,7 @@ venue: "Material Cuting Station"
 date: 2018-11-20
 location:
 header:
-  image: "/images/tyson.jpg"
+  image: "<br/><img src='/images/tyson.jpg'>"
 ---
 
 
