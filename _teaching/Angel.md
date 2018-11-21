@@ -1,11 +1,11 @@
 ---
 title: "Angel Calderon"
 collection: teaching
-type: "Welder Operator"
-permalink: /teaching/2015-spring-teaching-1
-venue: "Welding/Cleaning Station"
+type: "Supervisor"
+permalink: /teaching/Angel
+venue: "Management"
 date: 2018-01-01
 location:
 ---
 
-![angel](/images/angel.jpg){width: 500px}
+![angel](/images/angel.jpg | width=500)
