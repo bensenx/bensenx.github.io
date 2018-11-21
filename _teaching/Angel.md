@@ -8,4 +8,4 @@ date: 2018-01-01
 location:
 ---
 
-![angel](/images/angel.jpg | width=500)
+![angel](/images/angel.jpg){:width="500px"}
