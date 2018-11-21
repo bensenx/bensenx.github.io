@@ -22,7 +22,8 @@ We have created a product that is double the sound insulation of traditional win
 
 
 Not all Vinyl is the same
-======Many factors go into the quality of vinyl, that is why eurotek has partnered with Aluplast, a German innovator in vinyl formulation. Eurotek uses proprietary extrusions designed by Aluplast with performance and innovation in mind.
+======
+Many factors go into the quality of vinyl, that is why eurotek has partnered with Aluplast, a German innovator in vinyl formulation. Eurotek uses proprietary extrusions designed by Aluplast with performance and innovation in mind.
 
 Performance through in Glass
 ======
