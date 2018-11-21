@@ -2,7 +2,7 @@
 title: "Bensen Xie"
 collection: teaching
 type: "Manager"
-permalink: /teaching/Angel
+permalink: /teaching/Bensen
 venue: "Management"
 date: 2018-02-01
 location:
