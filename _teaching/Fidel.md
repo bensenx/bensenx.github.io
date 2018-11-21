@@ -1,5 +1,5 @@
 ---
-title: "Jose Lasso"
+title: "Fidel Munoz"
 collection: teaching
 type: "Welder Operator"
 permalink: /teaching/2015-spring-teaching-1
@@ -8,4 +8,4 @@ date: 2018-01-01
 location:
 ---
 
-![fidel](/images/fidel.jpg)
+![fidel](/images/fidel.jpg){width: 500px}

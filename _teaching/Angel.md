@@ -1,5 +1,5 @@
 ---
-title: "Jose Lasso"
+title: "Angel Calderon"
 collection: teaching
 type: "Welder Operator"
 permalink: /teaching/2015-spring-teaching-1
@@ -8,4 +8,4 @@ date: 2018-01-01
 location:
 ---
 
-![jose](/images/jose.jpg){width: 500px}
+![angel](/images/angel.jpg){width: 500px}

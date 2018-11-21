@@ -1,5 +1,5 @@
 ---
-title: "Jose Lasso"
+title: "Cesar Torres"
 collection: teaching
 type: "Welder Operator"
 permalink: /teaching/2015-spring-teaching-1
@@ -8,4 +8,4 @@ date: 2018-01-01
 location:
 ---
 
-![cesar](/images/cesar.jpg)
+![cesar](/images/cesar.jpg){width: 500px}
