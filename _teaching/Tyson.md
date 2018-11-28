@@ -19,3 +19,4 @@ Here is his main achievements:
 * Troubleshoot the machine when problem happens
 * Figure out the way to operate reinforcement cutter
 * Familiar with the whole process of windows making and could carry it out alone
+* Develop a new way to fix the defected pieces of profile after welding
