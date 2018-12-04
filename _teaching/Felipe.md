@@ -15,3 +15,4 @@ Achievements of Felipe:
 * Outstanding Glazer and trained multiple employees Glazing
 * Forklift driver in most cases
 * Catch quality issues and work on proper way to solve the problem
+* Use the registration system to book complete unit into cart
