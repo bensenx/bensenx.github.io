@@ -1,5 +1,5 @@
 ---
-title: "Develop the French Casement Window with Two Operable Handles"
+title: "Water Penetration Test"
 collection: portfolio
 type:
 permalink: /improvements/frenchcasement
@@ -7,3 +7,5 @@ permalink: /improvements/frenchcasement
 ---
 
 This article provided a general concept of what is water penetration test, the standard evaluation principle of it and the necessary procedure to carry out this test. Aims at providing essential guidance to improve the production and prepare for establishing the test lab.
+
+[Download document here](http://academicpages.github.io/files/Water Penetration Test 1.01.html)
