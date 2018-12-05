@@ -1,8 +1,9 @@
 ---
 title: "Develop the French Casement Window with Two Operable Handles"
-excerpt: "In standard design, the French casement window usually with only one operable handle. This article described the new configuration of Eurotek French casement window with two operable handles and both panes are tilt and turn compatible.
-
 collection: portfolio
+type:
+permalink: /improvements/frenchcasement
+
 ---
 
 The standard European style French casement window only have one operable handle, the slave panel is normally control an inferior handle on corner element. In some cases, the customer may eager to have a French casement window with both side operable for a better look and easier access.
@@ -21,4 +22,4 @@ In the original theory design, no false mullion drive gear would been used in th
 Several long bolts (quantity based on sash rebate height) were used to hold the false mullion with slave sash. In the new configuration, regular gear drive was mounted in the gap between false mullion and slave sash, which occupied the space for bolts. In the new configuration, the bolts were installed with an inclined angle inward or outward to mount false mullion to the slave sash.
 
 4. Without mishandling Device
-The new configuration will allow both panel compatible with tilt function, but the sash lifter is removed the window could not restrict the tilt function when the window is open.
+The new configuration will allow both panel compatible with tilt function, but the sash lifter is removed the window could not restrict the tilt function when the window is open. Our employees have develop the new configuration to make use of regular gear drive on the bottom of slave sash, the gear drive would not work with any handle. Instead of that, it will provide corresponding sash lifter (but in a horizontal way) to work with the sash lifter striker on the bottom of frame.
