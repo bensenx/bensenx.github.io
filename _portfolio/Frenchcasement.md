@@ -6,6 +6,7 @@ permalink: /improvements/frenchcasement
 
 ---
 
+
 The standard European style French casement window only have one operable handle, the slave panel is normally control an inferior handle on corner element. In some cases, the customer may eager to have a French casement window with both side operable for a better look and easier access.
 
 This article aims at providing a detailed instruction on how both-handle operable French Casement could be manufactured based on the normal 4000 Aluplast profiles and hardware from Maco.
@@ -23,5 +24,5 @@ Several long bolts (quantity based on sash rebate height) were used to hold the 
 
 4. Without mishandling Device
 The new configuration will allow both panel compatible with tilt function, but the sash lifter is removed the window could not restrict the tilt function when the window is open. Our employees have develop the new configuration to make use of regular gear drive on the bottom of slave sash, the gear drive would not work with any handle. Instead of that, it will provide corresponding sash lifter (but in a horizontal way) to work with the sash lifter striker on the bottom of frame.
-
+<img src="/images/frenchcasement.jpg" alt="EmployeesInstallFrenchcasement">
 [Check the video for demonstration](http://bensenx.github.io/files/frenchoperablehandle.mp4)
