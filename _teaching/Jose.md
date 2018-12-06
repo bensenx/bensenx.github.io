@@ -16,4 +16,4 @@ Achievements of Jose:
 * Participate in developing of the Lift and slide door
 * Find and report multiple quality issues during Production
 * Skilled in damaged profile fixing
-* Develop the[Operable handle configuration](https://bensenx.github.io/improvements/frenchcasement) for French casement window
+* Develop the [Operable handle configuration](https://bensenx.github.io/improvements/frenchcasement) for French casement window
