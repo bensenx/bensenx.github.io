@@ -16,4 +16,4 @@ Achievements of Cesar:
 * Skilled on organize the work space as well as proper store windows and doors
 * Operate the glazing beads cutter
 * Provide positive suggestions about safety
-* Use the registration system to book complete unit into cart
+* Use the [registration system](https://bensenx.github.io/improvements/registration) to book complete unit into cart

@@ -16,5 +16,5 @@ Achievements of Fidel:
 * Develop the way to compete the new units
 * Plan about the organize of machines
 * Get new idea to improve the production
-* Develop the Operable handle configuration for French casement window
+* Develop the [Operable handle configuration](https://bensenx.github.io/improvements/frenchcasement) for French casement window
 * Repair and upgrade the STM circular reinforcement cutter
