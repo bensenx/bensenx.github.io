@@ -2,7 +2,7 @@
 title: "Water Penetration Test"
 collection: portfolio
 type:
-permalink: /improvements/frenchcasement
+permalink: /improvements/waterpenetration
 
 ---
 
