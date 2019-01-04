@@ -15,3 +15,4 @@ Achievements of Julio:
 * Cut glazing beads fast and with good quality
 * Assist on the door Station
 * Develop the way to cut glazing beads for arch unit
+* Upgrade the hardware part collecting shelf to keep the ROTO hardware nice and clean
