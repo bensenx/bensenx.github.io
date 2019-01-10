@@ -5,7 +5,7 @@ type:
 permalink: /improvements/registration
 
 ---
-<img src="/images/registerunit.jpg" alt="EmployeeOperatingComputer" width="1000px">
+<img src="/images/registerunit.jpg" alt="EmployeeOperatingComputer" width="width="50%"">
 
 The implementation of powerful Cantor system to keep organize and track production.
 By using the new CIM station, the units will be marked as complete and stored in warehouse when loading them into rack.
