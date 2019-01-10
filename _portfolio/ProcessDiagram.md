@@ -6,12 +6,12 @@ permalink: /improvements/process
 
 ---
 # General processes of Production
-<img src="/images/Process.jpg" alt="Process Diagram">
+<img src="/images/Process.png" alt="Process Diagram">
 <figcaption> The Process Diagram of Eurotek Production</figcaption>
 
 Images for The Process:
 
-<img src="/images/1. ReinforcementCutting.jpg" alt="Reinforcement cutting">
+<img src="/images/1. ReinforcementCutting.jpg" alt="Reinforcement cutting" width="50%">
 <figcaption> The reinforcement cutting station </figcaption>
 
 <img src="/images/2. ProfilePickup.jpg" alt="Reinforcement cutting">
@@ -37,4 +37,4 @@ Images for The Process:
 
 Future Improvements:
 
- Assemble the automatic interface file generation to avoid manual input of cutting length
+ Assemble the automatic interface file generation to avoid manual input of cutting length for reinforcement and glazing beads
