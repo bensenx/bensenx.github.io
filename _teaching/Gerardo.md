@@ -13,3 +13,4 @@ Gerardo is our assistant machine operator at the BJM station. Along with continu
 Achievements of Gerardo:
 * Operate the BJM normal Production
 * Glaze the window in the correct way
+* Make the wall for water penetration test

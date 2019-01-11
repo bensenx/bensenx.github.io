@@ -13,3 +13,4 @@ Jorge is our assembler for our mullion station. Having only joined us a few shor
 Achievements of Jorge:
 * Install nail fin fast and with good quality
 * Assemble the mullions for windows
+* Help on doors manufacturing

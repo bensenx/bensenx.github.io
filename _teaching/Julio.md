@@ -16,4 +16,5 @@ Achievements of Julio:
 * Assist on the door Station
 * Develop the way to cut glazing beads for arch unit
 * Upgrade the hardware part collecting shelf to keep the ROTO hardware nice and clean
-* Investigate the production process of [Lift and Slide Door](https://bensenx.githum.io/improvements/liftandslide)
+* Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
+* Make the wall for water penetration test
