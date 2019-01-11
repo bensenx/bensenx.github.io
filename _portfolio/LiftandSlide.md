@@ -1,5 +1,5 @@
 ---
-title: "High end Lift and Slide Door"
+title: "High-end Lift and Slide Door"
 collection: portfolio
 permalink: /improvements/liftandslide
 ---
@@ -7,4 +7,4 @@ Lift and Slide 85 mm is a new series of High end sliding door from [Aluplast](ht
 
 Eurotek has overcame the material, machining and assembly difficulty with all sincerity to bring this high-end European door into the United States market. With months' of effort and investigation, we proudly serve this new door to our customers.
 
-[Check the video for demonstration](http://bensenx.github.io/files/frenchoperablehandle.mp4)
+[Check the video for demonstration](http://bensenx.github.io/files/liftandslide.mp4)
