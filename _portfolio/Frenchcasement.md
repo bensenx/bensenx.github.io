@@ -5,7 +5,8 @@ type:
 permalink: /improvements/frenchcasement
 
 ---
-
+<img src="/images/frenchcasement.png" alt="French casement window" width="70%">
+<figcaption> French casement Window</figcaption>
 
 The standard European style French casement window only have one operable handle, the slave panel is normally control an inferior handle on corner element. In some cases, the customer may eager to have a French casement window with both side operable for a better look and easier access.
 
