@@ -17,3 +17,4 @@ Achievements of Angel:
 * Control the production in a good manner and been able to plan it
 * Carry out the job site field glazing services
 * Listen to each single employee and been able to help them address the issue in a proper manner
+* Get the idea of using magnet to install [flex screen](https://bensenx.github.io/improvements/magnets).
