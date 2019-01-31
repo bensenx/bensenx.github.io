@@ -18,3 +18,4 @@ Achievements of Julio:
 * Upgrade the hardware part collecting shelf to keep the ROTO hardware nice and clean
 * Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
 * Make the wall for water penetration test
+* Learn to assemble the casement window for SONAX and receive high evaluation when temporary work in SONAX

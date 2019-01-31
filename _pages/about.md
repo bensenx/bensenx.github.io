@@ -12,7 +12,8 @@ header:
 Eurotek is a company focus on performance, design and aesthetics of windows and doors. By implement the European style design and work with partners all over the world, Eurotek has became a provider of high-quality vinyl windows and doors.
 
 <img src="/images/groupimage.jpg" alt="Picture of Eurotek Group" Width="80%">
-<figcaption>The picture of Eurotek Group</figcation>
+<figcaption>The picture of Eurotek Group</figcaption>
+
 
 INNOVATIVE
 ======
