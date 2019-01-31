@@ -19,3 +19,4 @@ Achievements of Fidel:
 * Develop the [Operable handle configuration](https://bensenx.github.io/improvements/frenchcasement) for French casement window
 * Repair and upgrade the STM circular reinforcement cutter
 * Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
+* One of the main members providing wheeler job site service

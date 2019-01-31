@@ -16,4 +16,5 @@ Achievements of Cesar:
 * Operate the glazing beads cutter
 * Provide positive suggestions about safety
 * Use the [registration system](https://bensenx.github.io/improvements/registration) to book complete unit into cart
-* Get the idea of using magnet to install [flex screen](https://bensenx.github.io/improvements/magnets).
+* Get the idea of using magnet to install [flex screen](https://bensenx.github.io/improvements/magnets)
+* One of the main members providing wheeler job site service
