@@ -18,3 +18,5 @@ Here is his main achievements:
 * Familiar with the whole process of windows making and could carry it out alone
 * Develop a new way to fix the defected pieces of profile after welding
 * Modify the BJM machine to make it compatible with nail-on profiles
+* Update the machining for weep slot to fit with new weep slot cover
+* Help on check and measure the machining offset for butt hinge of swing door

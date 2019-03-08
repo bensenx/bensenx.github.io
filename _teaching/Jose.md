@@ -19,3 +19,5 @@ Achievements of Jose:
 * Develop the [Operable handle configuration](https://bensenx.github.io/improvements/frenchcasement) for French casement window
 * Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
 * Learn to assemble the casement window for SONAX and receive high evaluation when temporary work in SONAX
+* Train Cesar for the False Mullion French Casement window hardware installation
+* Train Gerardo for assembly the sashes to frames with strikers before glazing

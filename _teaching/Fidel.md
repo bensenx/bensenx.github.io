@@ -20,3 +20,5 @@ Achievements of Fidel:
 * Repair and upgrade the STM circular reinforcement cutter
 * Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
 * One of the main members providing wheeler job site service
+* Develop a new installation clips for flex screen to replace the magnets that is cheaper and easier to install
+* Figure out the function of top frame cover profile for Lift and Slide Door

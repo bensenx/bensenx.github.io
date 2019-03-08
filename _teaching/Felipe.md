@@ -16,3 +16,4 @@ Achievements of Felipe:
 * Catch quality issues and work on proper way to solve the problem
 * Use the [registration system](https://bensenx.github.io/improvements/registration) to book complete unit into cart
 * One of the main members providing wheeler job site service
+* Develop the new way that using clamp to help install the aluminum glazing beads
