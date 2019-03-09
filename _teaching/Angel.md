@@ -20,3 +20,4 @@ Achievements of Angel:
 * Get the idea of using magnet to install [flex screen](https://bensenx.github.io/improvements/magnets).
 * Remain a good came in time for this week and no late
 * Actively participate in the improving and works well in daily production planning
+* Direct and work in Wheeler jobsite to finish the painful service trips

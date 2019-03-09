@@ -19,3 +19,4 @@ Achievements of Julio:
 * Investigate the production process of [Lift and Slide Door](https://bensenx.github.io/improvements/liftandslide)
 * Make the wall for water penetration test
 * Learn to assemble the casement window for SONAX and receive high evaluation when temporary work in SONAX
+* One of the main members providing wheeler job site service
