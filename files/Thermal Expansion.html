@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="generator" content="Madoko, version 1.1.6" />
+  <meta name="viewport" content="initial-scale=1.0" />
+  <meta name="author" content="**Bensen Xie**  03/27/2019" />
+  <title>Thermal expansion for Aluplast uPVC profile</title>
+  <style type="text/css"  class="link">
+  /*# sourceURL=madoko.css */
+  
+  .madoko .toc>.tocblock .tocblock .tocblock {
+    margin-left: 2.25em;
+  }
+  .madoko .toc>.tocblock .tocblock {
+    margin-left: 1.5em;
+  }
+  .madoko .toc-contents>.tocblock>.tocitem {
+    font-weight: bold;
+  }
+  .madoko .toc {
+    margin-top: 1em;
+  }
+  .madoko p.para-continue {
+    margin-bottom: 0pt;
+  }
+  .madoko .para-block+p {
+    margin-top: 0pt;
+  }
+  .madoko ul.para-block, .madoko ol.para-block {
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+  }
+  .madoko ul.para-end, .madoko ol.para-end {
+    margin-bottom: 1em;
+  }
+  .madoko dl {
+    margin-left: 0em;
+  }
+  .madoko blockquote {
+    font-style: italic;
+  }
+  .madoko a.localref {
+    text-decoration: none;
+  }
+  .madoko a.localref:hover {
+    text-decoration: underline;
+  }
+  .madoko .footnotes {
+    font-size: smaller;
+    margin-top: 2em;
+  }
+  .madoko .footnotes hr {
+    width: 50%;
+    text-align: left;
+  }
+  .madoko .footnote { 
+    margin-left: 1em;
+  }
+  .madoko .footnote-before {
+    margin-left: -1em;
+    width: 1em;
+    display: inline-block;
+  }
+  .madoko .align-center, .madoko .align-center>p {
+    text-align: center !important;
+  }
+  .madoko .align-center pre {
+    text-align: left;
+  }
+  .madoko .align-center>* {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .madoko .align-left, .madoko .align-left>p {
+    text-align: left !important;
+  }
+  .madoko .align-left>* {
+    margin-left: 0pt !important;
+    margin-right: auto !important;
+  }
+  .madoko .align-right, .madoko .align-right>p {
+    text-align: right !important;
+  }
+  .madoko .align-right>* {
+    margin-left: auto !important;
+    margin-right: 0pt !important;
+  }
+  .madoko .align-center>table,
+  .madoko .align-left>table,
+  .madoko .align-right>table {
+    text-align: left !important;
+  }
+  .madoko .equation-before {
+    float: right;
+  }
+  .madoko .bibitem {
+    font-size: smaller;
+  }
+  .madoko .bibsearch {
+    font-size: x-small;
+    text-decoration:none;
+    color: black;
+    font-family: "Segoe UI Symbol", Symbola, serif;
+  }
+  .madoko .block, .madoko .figure, .madoko .bibitem, .madoko .equation, .madoko div.math {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+  }
+  .madoko .figure {
+    padding: 0.5em;
+    margin-left: 0pt;
+    margin-right: 0pt;
+  }
+  .madoko .hidden {
+    display: none;
+  }
+  .madoko .invisible {
+    visibility: hidden;
+  }
+  .madoko.preview .invisible {
+    visibility: visible;
+    opacity: 0.5;
+  }
+  .madoko code.code, .madoko span.code {
+    white-space: pre-wrap;
+  }
+  .madoko hr, hr.madoko {
+    border: none;
+    border-bottom: black solid 1px;
+    margin-bottom: 0.5ex;
+  }
+  .madoko .framed>*:first-child {
+    margin-top: 0pt;
+  }
+  .madoko .framed>*:last-child {
+    margin-bottom: 0pt;
+  }
+  .madoko ul.list-style-type-dash {
+      list-style-type: none !important;
+  }
+  .madoko ul.list-style-type-dash > li:before {
+      content: "\2013"; 
+      position: absolute;
+      margin-left: -1em; 
+  }
+  .madoko table.madoko {
+    border-collapse: collapse;
+  }
+  .madoko td, .madoko th {
+    padding: 0ex 0.5ex;
+    margin: 0pt;
+    vertical-align: top;
+  }
+  .madoko .cell-border-left {
+    border-left: 1px solid black;
+  }
+  .madoko .cell-border-right {
+    border-right: 1px solid black;
+  }
+  .madoko thead>tr:first-child>.cell-line,
+  .madoko tbody:first-child>tr:first-child>.cell-line {
+    border-top: 1px solid black;
+    border-bottom: none;
+  }
+  .madoko .cell-line, .madoko .cell-double-line {
+    border-bottom: 1px solid black;
+    border-top: none;
+  }
+  .madoko .cell-double-line {
+    border-top: 1px solid black;
+    padding-top: 1.5px !important;
+  }
+  .madoko .input-mathpre .MathJax_Display {
+    text-align: left !important;
+  }
+  .madoko div.input-mathpre {
+    text-align: left;
+    margin-top: 1.5ex;
+    margin-bottom: 1ex;
+  }
+  .madoko .math-rendering {
+    text-align: left;
+    white-space: pre;
+    color: gray;
+  }
+  .madoko .mathdisplay {
+    text-align: center;
+  }
+  .madoko .pretty table {
+    border-collapse: collapse;
+  }
+  .madoko .pretty td {
+    padding: 0em;
+  }
+  .madoko .pretty td.empty {
+    min-width: 1.5ex;
+  }
+  .madoko .pretty td.expander {
+    width: 100em;
+  }
+  body.madoko, .madoko .serif {
+    font-family: Cambria,"Times New Roman","Liberation Serif","Times",serif;
+  }
+  .madoko .sans-serif {
+    font-family: "Calibri", "Optima", sans-serif;
+  }
+  .madoko .symbol {
+    font-family: "Segoe UI Symbol", Symbola, serif;
+  }
+  body.madoko {  
+    -webkit-text-size-adjust: 100%;       
+    text-rendering: optimizeLegibility;
+  }
+  body.madoko {
+    max-width: 88ex; 
+    margin: 1em auto;
+    padding: 0em 2em;  
+  }
+  body.preview.madoko {
+    padding: 0em 1em;
+  }
+  .madoko p {
+    text-align: justify;
+  }
+  .madoko h1, .madoko h2, .madoko h3, .madoko h4 { 
+    margin-top: 1.22em; 
+    margin-bottom: 1ex;
+  }
+  .madoko h1+p, .madoko h2+p, .madoko h3+p, .madoko h4+p, .madoko h5+p  { 
+    margin-top: 1ex;    
+  }
+  .madoko h5, .madoko h6 { 
+    margin-top: 1ex;
+    font-size: 1em;
+  }
+  .madoko h5 { 
+    margin-bottom: 0.5ex;
+  }
+  .madoko h5 + p {
+    margin-top: 0.5ex;
+  }
+  .madoko h6 { 
+    margin-bottom: 0pt;
+  }
+  .madoko h6 + p {
+    margin-top: 0pt;
+  }
+  .madoko pre, .madoko code, .madoko kbd, .madoko samp, .madoko tt, 
+  .madoko .monospace, .madoko .token-indent, .madoko .reveal pre, .madoko .reveal code, .madoko .email {
+    font-family: Consolas,"Andale Mono WT","Andale Mono",Lucida Console,Monaco,monospace,monospace;
+    font-size: 0.85em;
+  }
+  .madoko pre code, .madoko .token-indent {
+    font-size: 0.95em;
+  }
+  .madoko pre code {
+    font-family: inherit !important;
+  }
+  .madoko ol.linenums li {
+    background-color: white;
+    list-style-type: decimal;
+  }
+  .madoko .remote {
+    background-color: #F0FFF0;
+  }
+  .madoko .remote + * {
+    margin-top: 0pt;
+  }
+  @media print {
+    body.madoko {
+      font-size: 10pt;
+    }
+    @page {
+      margin: 1in 1.5in;
+    }
+  }
+  @media only screen and (max-device-width:1024px) {
+    body.madoko {
+      padding: 0em 0.5em;    
+    }
+    .madoko li {
+      text-align: left;
+    }
+  }
+  
+    </style>
+  
+  </head>
+<body class="madoko">
+
+<div class="body madoko" style="line-adjust:0">
+
+<div class="titleblock align-center para-block" style="text-align:center;line-adjust:0">
+<div class="titleheader align-center" style="text-align:center;line-adjust:0">
+<div class="title para-block" style="font-size:xx-large;font-weight:bold;margin-bottom:0.5ex;line-adjust:0">Thermal expansion for Aluplast uPVC profile</div></div>
+<div class="authors align-center" style="text-align:center;width:80%;line-adjust:0"><table class="authorrow columns block" style="margin-top:2ex;width:100%;line-adjust:0">
+<tbody><tr><td class="author column" style="text-align:center;line-adjust:0">
+<div class="authorname" style="font-size:large;line-adjust:0"><strong class="strong-star2">Bensen Xie</strong>  03/27/2019</div></td></tr></tbody></table></div></div><h2 id="sec-coefficient-and-formula-of-linear-expansion" class="h1" data-heading-depth="1" style="display:block"><span class="heading-before"><span class="heading-label">1</span>.&#8194;</span>Coefficient and Formula of Linear Expansion</h2>
+<p class="p noindent">The coefficient of linear thermal expansion (CTE, a, or a<sub>1</sub>) is a material property
+ that is indicative of the extent to which a material expands upon heating. Different
+  substances expand by different amounts. Over small temperature ranges, the thermal
+   expansion of uniform linear objects is proportional to temperature change. 
+</p>
+<p class="p indent">Thermal expansion can generate detrimental internal stress when a structural part 
+    is heated and kept at constant length. To be more specific, when the window or door is
+    restrict within a certain size openning. The thermal expansion could result in too much 
+    force applied on the unit and lead to the breaking or bend.
+</p>
+<p class="p indent para-continue">The expansion of a linear component could be expressed as:
+</p>
+<div class="equation para-block" style="line-adjust:0"><span class="equation-before"><span class="equation-label">(1)</span></span>
+
+<div class="mathdisplay para-block input-math" data-math-full="" style="line-adjust:0"><svg  class="mathdisplay math-display math-render-svg math" data-math-full="" style="vertical-align:-0.0210em;height:1.1327em;width:11.8293em" viewBox='149.897 56.157 112.66 10.788' ><desc>\[  (l_f - l_0) / l_0 = \alpha_1 (T_f - T_0)
+\]</desc><g id='math-8170a6'><use x='150.096' xlink:href='#g3-40' y='63.828'/><use x='153.971' xlink:href='#g1-108' y='63.828'/><use x='156.943' xlink:href='#g2-102' y='65.323'/><use x='164.322' xlink:href='#g0-0' y='63.828'/><use x='174.285' xlink:href='#g1-108' y='63.828'/><use x='177.257' xlink:href='#g4-48' y='65.323'/><use x='181.727' xlink:href='#g3-41' y='63.828'/><use x='185.601' xlink:href='#g1-61' y='63.828'/><use x='190.582' xlink:href='#g1-108' y='63.828'/><use x='193.555' xlink:href='#g4-48' y='65.323'/><use x='200.792' xlink:href='#g3-61' y='63.828'/><use x='211.308' xlink:href='#g1-11' y='63.828'/><use x='217.681' xlink:href='#g4-49' y='65.323'/><use x='222.15' xlink:href='#g3-40' y='63.828'/><use x='226.025' xlink:href='#g1-84' y='63.828'/><use x='231.846' xlink:href='#g2-102' y='65.323'/><use x='239.225' xlink:href='#g0-0' y='63.828'/><use x='249.188' xlink:href='#g1-84' y='63.828'/><use x='255.01' xlink:href='#g4-48' y='65.323'/><use x='259.479' xlink:href='#g3-41' y='63.828'/></g></svg></div></div>
+<p class="p noindent para-continued"><svg  class="math-inline math-render-svg math" style="vertical-align:-0.3344em;height:1.0741em;width:2.1437em" viewBox='88.468 54.722 20.416 10.23' ><desc>$ l_f, l_0 $</desc><g id='math-9286d4'><use x='88.667' xlink:href='#g1-108' y='61.836'/><use x='91.64' xlink:href='#g2-102' y='63.33'/><use x='96.805' xlink:href='#g1-59' y='61.836'/><use x='101.233' xlink:href='#g1-108' y='61.836'/><use x='104.205' xlink:href='#g4-48' y='63.33'/></g></svg> stands for the final and initial length of the object. <svg  class="math-inline math-render-svg math" style="vertical-align:-0.3327em;height:1.0563em;width:2.7420em" viewBox='34.67 54.892 26.114 10.06' ><desc>$ T_f, T_0 $</desc><g id='math-81114c'><use x='34.869' xlink:href='#g2-84' y='61.836'/><use x='40.691' xlink:href='#g3-102' y='63.33'/><use x='45.856' xlink:href='#g2-59' y='61.836'/><use x='50.284' xlink:href='#g2-84' y='61.836'/><use x='56.106' xlink:href='#g5-48' y='63.33'/></g></svg> stands
+for the final and initial temperature. <svg  class="math-inline math-render-svg math" style="vertical-align:-0.1918em;height:0.6611em;width:1.1814em" viewBox='88.468 57.233 11.251 6.296' ><desc>$ \alpha_1 $</desc><g id='math-88d5f4'><use x='88.667' xlink:href='#g1-11' y='61.836'/><use x='95.041' xlink:href='#g4-49' y='63.33'/></g></svg> is the coefficient of linear thermal expansion.
+</p>
+<p class="p indent">Based on the document from Aluplast, the <svg  class="math-inline math-render-svg math" style="vertical-align:-0.1918em;height:0.6611em;width:1.1814em" viewBox='88.468 57.233 11.251 6.296' ><desc>$ \alpha_1 $</desc><g id='math-88d5f4'><use x='88.667' xlink:href='#g1-11' y='61.836'/><use x='95.041' xlink:href='#g4-49' y='63.33'/></g></svg> for uPVC profile is <svg  class="math-inline math-render-svg math" style="vertical-align:-0.2957em;height:1.1692em;width:6.8365em" viewBox='88.468 53.39 65.11 11.135' ><desc>$ 7 \times 10^{-5} (1/K)$</desc><g id='math-3b2340'><use x='88.667' xlink:href='#g4-55' y='61.836'/><use x='95.863' xlink:href='#g0-2' y='61.836'/><use x='105.825' xlink:href='#g4-49-1' y='61.836'/><use x='110.807' xlink:href='#g4-48-1' y='61.836'/><use x='115.788' xlink:href='#g1-0' y='58.22'/><use x='122.015' xlink:href='#g5-53' y='58.22'/><use x='126.484' xlink:href='#g4-40' y='61.836'/><use x='130.358' xlink:href='#g4-49-1' y='61.836'/><use x='135.34' xlink:href='#g2-61' y='61.836'/><use x='140.321' xlink:href='#g2-75' y='61.836'/><use x='149.495' xlink:href='#g4-41' y='61.836'/></g></svg> within the range of <svg  class="math-inline math-render-svg math" style="vertical-align:-0.1076em;height:0.8023em;width:3.2060em" viewBox='34.67 54.613 30.533 7.641' ><desc>$-30^\circ C$</desc><g id='math-b81207'><use x='34.869' xlink:href='#g0-0' y='61.836'/><use x='42.618' xlink:href='#g4-51' y='61.836'/><use x='47.599' xlink:href='#g4-48-1' y='61.836'/><use x='52.581' xlink:href='#g1-14' y='58.22'/><use x='57.161' xlink:href='#g2-67' y='61.836'/></g></svg> to <svg  class="math-inline math-render-svg math" style="vertical-align:-0.0210em;height:0.8023em;width:2.3923em" viewBox='88.468 54.613 22.784 7.641' ><desc>$ 50^\circ C $</desc><g id='math-40e7b3'><use x='88.667' xlink:href='#g4-53' y='61.836'/><use x='93.649' xlink:href='#g4-48-1' y='61.836'/><use x='98.63' xlink:href='#g1-14' y='58.22'/><use x='103.21' xlink:href='#g2-67' y='61.836'/></g></svg>
+</p><h2 id="sec-calculation-for-sample-upvc-profile" class="h1" data-heading-depth="1" style="display:block"><span class="heading-before"><span class="heading-label">2</span>.&#8194;</span>Calculation for Sample uPVC profile</h2>
+<p class="p noindent para-continue">Taking the maximum size of the unit 19 feet as the estimated sample length, and a temperature change of <svg  class="math-inline math-render-svg math" style="vertical-align:-0.0210em;height:0.7850em;width:2.3878em" viewBox='34.67 54.778 22.741 7.476' ><desc>$40^\circ F$</desc><g id='math-cf5a7f'><use x='34.869' xlink:href='#g4-52' y='61.836'/><use x='39.851' xlink:href='#g4-48-1' y='61.836'/><use x='44.832' xlink:href='#g1-14' y='58.22'/><use x='49.412' xlink:href='#g2-70' y='61.836'/></g></svg> to <svg  class="math-inline math-render-svg math" style="vertical-align:-0.0210em;height:0.7850em;width:2.9109em" viewBox='88.468 54.778 27.723 7.476' ><desc>$120^\circ F$</desc><g id='math-e902e3'><use x='88.667' xlink:href='#g4-49-1' y='61.836'/><use x='93.649' xlink:href='#g4-50' y='61.836'/><use x='98.63' xlink:href='#g4-48-1' y='61.836'/><use x='103.612' xlink:href='#g1-14' y='58.22'/><use x='108.192' xlink:href='#g2-70' y='61.836'/></g></svg> (277.594 K to 322.039 K). The expansion equation 
+would be:
+</p>
+<div class="equation para-block" style="line-adjust:0"><span class="equation-before"><span class="equation-label">(2)</span></span>
+
+<div class="mathdisplay para-block input-math" data-math-full="" style="line-adjust:0"><svg  class="mathdisplay math-display math-render-svg math" data-math-full="" style="vertical-align:-0.0210em;height:1.2663em;width:25.6909em" viewBox='83.952 54.885 244.675 12.06' ><desc>\[7 \times 10^{-5} (322.039 - 277.594) = 0.00311115 = (l_f - l_0) / l_0
+\]</desc><g id='math-839957'><use x='84.151' xlink:href='#g4-55' y='63.828'/><use x='91.347' xlink:href='#g0-2' y='63.828'/><use x='101.309' xlink:href='#g4-49-1' y='63.828'/><use x='106.291' xlink:href='#g4-48-1' y='63.828'/><use x='111.272' xlink:href='#g1-0' y='59.715'/><use x='117.499' xlink:href='#g5-53' y='59.715'/><use x='121.968' xlink:href='#g4-40' y='63.828'/><use x='125.842' xlink:href='#g4-51' y='63.828'/><use x='130.824' xlink:href='#g4-50' y='63.828'/><use x='135.805' xlink:href='#g4-50' y='63.828'/><use x='140.786' xlink:href='#g2-58' y='63.828'/><use x='143.554' xlink:href='#g4-48-1' y='63.828'/><use x='148.535' xlink:href='#g4-51' y='63.828'/><use x='153.516' xlink:href='#g4-57' y='63.828'/><use x='160.712' xlink:href='#g0-0' y='63.828'/><use x='170.674' xlink:href='#g4-50' y='63.828'/><use x='175.656' xlink:href='#g4-55' y='63.828'/><use x='180.637' xlink:href='#g4-55' y='63.828'/><use x='185.618' xlink:href='#g2-58' y='63.828'/><use x='188.386' xlink:href='#g4-53' y='63.828'/><use x='193.367' xlink:href='#g4-57' y='63.828'/><use x='198.348' xlink:href='#g4-52' y='63.828'/><use x='203.33' xlink:href='#g4-41' y='63.828'/><use x='209.971' xlink:href='#g4-61' y='63.828'/><use x='220.487' xlink:href='#g4-48-1' y='63.828'/><use x='225.469' xlink:href='#g2-58' y='63.828'/><use x='228.236' xlink:href='#g4-48-1' y='63.828'/><use x='233.218' xlink:href='#g4-48-1' y='63.828'/><use x='238.199' xlink:href='#g4-51' y='63.828'/><use x='243.18' xlink:href='#g4-49-1' y='63.828'/><use x='248.162' xlink:href='#g4-49-1' y='63.828'/><use x='253.143' xlink:href='#g4-49-1' y='63.828'/><use x='258.124' xlink:href='#g4-49-1' y='63.828'/><use x='263.106' xlink:href='#g4-53' y='63.828'/><use x='270.854' xlink:href='#g4-61' y='63.828'/><use x='281.37' xlink:href='#g4-40' y='63.828'/><use x='285.245' xlink:href='#g2-108' y='63.828'/><use x='288.217' xlink:href='#g3-102' y='65.323'/><use x='295.596' xlink:href='#g0-0' y='63.828'/><use x='305.559' xlink:href='#g2-108' y='63.828'/><use x='308.531' xlink:href='#g5-48' y='65.323'/><use x='313.001' xlink:href='#g4-41' y='63.828'/><use x='316.875' xlink:href='#g2-61' y='63.828'/><use x='321.856' xlink:href='#g2-108' y='63.828'/><use x='324.829' xlink:href='#g5-48' y='65.323'/></g></svg></div></div>
+<p class="p noindent para-continued para-continue">Which would leads to:
+</p>
+<div class="equation para-block" style="line-adjust:0"><span class="equation-before"><span class="equation-label">(3)</span></span>
+
+<div class="mathdisplay para-block input-math" data-math-full="" style="line-adjust:0"><svg  class="mathdisplay math-display math-render-svg math" data-math-full="" style="vertical-align:-0.0210em;height:1.1327em;width:10.6910em" viewBox='209.116 56.157 101.819 10.788' ><desc>\[l_f = 19.05911185 (Feet)
+\]</desc><g id='math-91331c'><use x='209.315' xlink:href='#g2-108' y='63.828'/><use x='212.288' xlink:href='#g3-102' y='65.323'/><use x='220.22' xlink:href='#g4-61' y='63.828'/><use x='230.736' xlink:href='#g4-49-1' y='63.828'/><use x='235.717' xlink:href='#g4-57' y='63.828'/><use x='240.699' xlink:href='#g2-58' y='63.828'/><use x='243.466' xlink:href='#g4-48-1' y='63.828'/><use x='248.447' xlink:href='#g4-53' y='63.828'/><use x='253.429' xlink:href='#g4-57' y='63.828'/><use x='258.41' xlink:href='#g4-49-1' y='63.828'/><use x='263.391' xlink:href='#g4-49-1' y='63.828'/><use x='268.373' xlink:href='#g4-49-1' y='63.828'/><use x='273.354' xlink:href='#g4-56' y='63.828'/><use x='278.335' xlink:href='#g4-53' y='63.828'/><use x='283.317' xlink:href='#g4-40' y='63.828'/><use x='287.191' xlink:href='#g2-70' y='63.828'/><use x='294.981' xlink:href='#g2-101' y='63.828'/><use x='299.62' xlink:href='#g2-101' y='63.828'/><use x='304.259' xlink:href='#g2-116' y='63.828'/><use x='307.857' xlink:href='#g4-41' y='63.828'/></g></svg></div></div>
+<p class="p noindent para-continued">The absolute expansion length will be roughly <strong class="strong-star2">0.0591 Feet</strong> (<strong class="strong-star2">0.709 Inch</strong> and <strong class="strong-star2">18 mm</strong>)
+</p><span data-line=""></span></div>
+<svg id='math-svg-paths' style='display:none' version='1.1' viewBox='0 0 0 0' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<defs>
+<path d='M6.565 -2.291C6.735 -2.291 6.914 -2.291 6.914 -2.491S6.735 -2.69 6.565 -2.69H1.176C1.006 -2.69 0.827 -2.69 0.827 -2.491S1.006 -2.291 1.176 -2.291H6.565Z' id='g0-0'/>
+<path d='M2.838 -2.755H3.522C3.661 -2.755 3.752 -2.755 3.752 -2.908C3.752 -3.006 3.661 -3.006 3.536 -3.006H2.887C3.048 -3.891 3.103 -4.212 3.159 -4.414C3.194 -4.568 3.347 -4.714 3.515 -4.714C3.522 -4.714 3.71 -4.714 3.843 -4.631C3.557 -4.54 3.536 -4.289 3.536 -4.247C3.536 -4.094 3.654 -3.989 3.815 -3.989C4.003 -3.989 4.212 -4.149 4.212 -4.414C4.212 -4.735 3.87 -4.91 3.515 -4.91C3.208 -4.91 2.866 -4.735 2.678 -4.387C2.538 -4.129 2.483 -3.815 2.336 -3.006H1.785C1.646 -3.006 1.555 -3.006 1.555 -2.852C1.555 -2.755 1.646 -2.755 1.771 -2.755H2.287C2.28 -2.713 1.841 -0.202 1.674 0.544C1.639 0.697 1.52 1.227 1.186 1.227C1.179 1.227 1.011 1.227 0.879 1.144C1.165 1.053 1.186 0.802 1.186 0.76C1.186 0.607 1.067 0.502 0.907 0.502C0.718 0.502 0.509 0.663 0.509 0.928C0.509 1.241 0.837 1.423 1.186 1.423C1.632 1.423 1.939 0.962 2.022 0.809C2.273 0.342 2.434 -0.516 2.448 -0.6L2.838 -2.755Z' id='g2-102'/>
+<path d='M3.298 2.391C3.298 2.361 3.298 2.341 3.128 2.172C1.883 0.917 1.564 -0.966 1.564 -2.491C1.564 -4.224 1.943 -5.958 3.168 -7.203C3.298 -7.323 3.298 -7.342 3.298 -7.372C3.298 -7.442 3.258 -7.472 3.198 -7.472C3.098 -7.472 2.202 -6.795 1.614 -5.529C1.106 -4.433 0.986 -3.328 0.986 -2.491C0.986 -1.714 1.096 -0.508 1.644 0.618C2.242 1.843 3.098 2.491 3.198 2.491C3.258 2.491 3.298 2.461 3.298 2.391Z' id='g3-40'/>
+<path d='M2.879 -2.491C2.879 -3.268 2.77 -4.473 2.222 -5.599C1.624 -6.824 0.767 -7.472 0.667 -7.472C0.608 -7.472 0.568 -7.432 0.568 -7.372C0.568 -7.342 0.568 -7.323 0.757 -7.143C1.733 -6.157 2.301 -4.573 2.301 -2.491C2.301 -0.787 1.933 0.966 0.697 2.222C0.568 2.341 0.568 2.361 0.568 2.391C0.568 2.451 0.608 2.491 0.667 2.491C0.767 2.491 1.664 1.813 2.252 0.548C2.76 -0.548 2.879 -1.654 2.879 -2.491Z' id='g3-41'/>
+<path d='M6.844 -3.258C6.994 -3.258 7.183 -3.258 7.183 -3.457S6.994 -3.656 6.854 -3.656H0.887C0.747 -3.656 0.558 -3.656 0.558 -3.457S0.747 -3.258 0.897 -3.258H6.844ZM6.854 -1.325C6.994 -1.325 7.183 -1.325 7.183 -1.524S6.994 -1.724 6.844 -1.724H0.897C0.747 -1.724 0.558 -1.724 0.558 -1.524S0.747 -1.325 0.887 -1.325H6.854Z' id='g3-61'/>
+<path d='M4.752 -2.351C4.752 -3.915 3.826 -4.403 3.088 -4.403C1.724 -4.403 0.408 -2.979 0.408 -1.574C0.408 -0.648 1.006 0.11 2.022 0.11C2.65 0.11 3.367 -0.12 4.125 -0.727C4.254 -0.199 4.583 0.11 5.031 0.11C5.559 0.11 5.868 -0.438 5.868 -0.598C5.868 -0.667 5.808 -0.697 5.748 -0.697C5.679 -0.697 5.649 -0.667 5.619 -0.598C5.44 -0.11 5.081 -0.11 5.061 -0.11C4.752 -0.11 4.752 -0.887 4.752 -1.126C4.752 -1.335 4.752 -1.355 4.852 -1.474C5.788 -2.65 5.998 -3.806 5.998 -3.816C5.998 -3.836 5.988 -3.915 5.878 -3.915C5.778 -3.915 5.778 -3.885 5.729 -3.706C5.549 -3.078 5.22 -2.321 4.752 -1.733V-2.351ZM4.085 -0.986C3.208 -0.219 2.441 -0.11 2.042 -0.11C1.445 -0.11 1.146 -0.558 1.146 -1.196C1.146 -1.684 1.405 -2.76 1.724 -3.268C2.192 -3.995 2.73 -4.184 3.078 -4.184C4.065 -4.184 4.065 -2.879 4.065 -2.102C4.065 -1.733 4.065 -1.156 4.085 -0.986Z' id='g1-11'/>
+<path d='M4.374 -7.093C4.423 -7.223 4.423 -7.263 4.423 -7.273C4.423 -7.382 4.334 -7.472 4.224 -7.472C4.154 -7.472 4.085 -7.442 4.055 -7.382L0.598 2.112C0.548 2.242 0.548 2.281 0.548 2.291C0.548 2.401 0.638 2.491 0.747 2.491C0.877 2.491 0.907 2.421 0.966 2.252L4.374 -7.093Z' id='g1-61'/>
+<path d='M4.254 -6.047C4.324 -6.326 4.364 -6.386 4.483 -6.416C4.573 -6.436 4.902 -6.436 5.111 -6.436C6.117 -6.436 6.565 -6.396 6.565 -5.619C6.565 -5.469 6.526 -5.081 6.486 -4.822C6.476 -4.782 6.456 -4.663 6.456 -4.633C6.456 -4.573 6.486 -4.503 6.575 -4.503C6.685 -4.503 6.705 -4.583 6.725 -4.732L6.994 -6.466C7.004 -6.506 7.014 -6.605 7.014 -6.635C7.014 -6.745 6.914 -6.745 6.745 -6.745H1.215C0.976 -6.745 0.966 -6.735 0.897 -6.545L0.299 -4.792C0.289 -4.772 0.239 -4.633 0.239 -4.613C0.239 -4.553 0.289 -4.503 0.359 -4.503C0.458 -4.503 0.468 -4.553 0.528 -4.712C1.066 -6.257 1.325 -6.436 2.8 -6.436H3.188C3.467 -6.436 3.467 -6.396 3.467 -6.316C3.467 -6.257 3.437 -6.137 3.427 -6.107L2.092 -0.787C2.002 -0.418 1.973 -0.309 0.907 -0.309C0.548 -0.309 0.488 -0.309 0.488 -0.12C0.488 0 0.598 0 0.658 0C0.927 0 1.205 -0.02 1.474 -0.02C1.753 -0.02 2.042 -0.03 2.321 -0.03S2.879 -0.02 3.148 -0.02C3.437 -0.02 3.736 0 4.015 0C4.115 0 4.234 0 4.234 -0.199C4.234 -0.309 4.154 -0.309 3.895 -0.309C3.646 -0.309 3.517 -0.309 3.258 -0.329C2.969 -0.359 2.889 -0.389 2.889 -0.548C2.889 -0.558 2.889 -0.608 2.929 -0.757L4.254 -6.047Z' id='g1-84'/>
+<path d='M2.57 -6.804C2.57 -6.814 2.57 -6.914 2.441 -6.914C2.212 -6.914 1.484 -6.834 1.225 -6.814C1.146 -6.804 1.036 -6.795 1.036 -6.605C1.036 -6.496 1.136 -6.496 1.285 -6.496C1.763 -6.496 1.773 -6.406 1.773 -6.326L1.743 -6.127L0.488 -1.146C0.458 -1.036 0.438 -0.966 0.438 -0.807C0.438 -0.239 0.877 0.11 1.345 0.11C1.674 0.11 1.923 -0.09 2.092 -0.448C2.271 -0.827 2.391 -1.405 2.391 -1.425C2.391 -1.524 2.301 -1.524 2.271 -1.524C2.172 -1.524 2.162 -1.484 2.132 -1.345C1.963 -0.697 1.773 -0.11 1.375 -0.11C1.076 -0.11 1.076 -0.428 1.076 -0.568C1.076 -0.807 1.086 -0.857 1.136 -1.046L2.57 -6.804Z' id='g1-108'/>
+<path d='M3.599 -2.225C3.599 -2.992 3.508 -3.543 3.187 -4.031C2.971 -4.352 2.538 -4.631 1.981 -4.631C0.363 -4.631 0.363 -2.727 0.363 -2.225S0.363 0.139 1.981 0.139S3.599 -1.723 3.599 -2.225ZM1.981 -0.056C1.66 -0.056 1.234 -0.244 1.095 -0.816C0.997 -1.227 0.997 -1.799 0.997 -2.315C0.997 -2.824 0.997 -3.354 1.102 -3.738C1.248 -4.289 1.695 -4.435 1.981 -4.435C2.357 -4.435 2.72 -4.205 2.845 -3.801C2.957 -3.424 2.964 -2.922 2.964 -2.315C2.964 -1.799 2.964 -1.283 2.873 -0.844C2.734 -0.209 2.26 -0.056 1.981 -0.056Z' id='g4-48'/>
+<path d='M4.583 -3.188C4.583 -3.985 4.533 -4.782 4.184 -5.519C3.726 -6.476 2.909 -6.635 2.491 -6.635C1.893 -6.635 1.166 -6.376 0.757 -5.45C0.438 -4.762 0.389 -3.985 0.389 -3.188C0.389 -2.441 0.428 -1.544 0.837 -0.787C1.265 0.02 1.993 0.219 2.481 0.219C3.019 0.219 3.776 0.01 4.214 -0.936C4.533 -1.624 4.583 -2.401 4.583 -3.188ZM2.481 0C2.092 0 1.504 -0.249 1.325 -1.205C1.215 -1.803 1.215 -2.72 1.215 -3.308C1.215 -3.945 1.215 -4.603 1.295 -5.141C1.484 -6.326 2.232 -6.416 2.481 -6.416C2.809 -6.416 3.467 -6.237 3.656 -5.25C3.756 -4.692 3.756 -3.935 3.756 -3.308C3.756 -2.56 3.756 -1.883 3.646 -1.245C3.497 -0.299 2.929 0 2.481 0Z' id='g4-48-1'/>
+<path d='M2.336 -4.435C2.336 -4.624 2.322 -4.631 2.127 -4.631C1.681 -4.191 1.046 -4.184 0.76 -4.184V-3.933C0.928 -3.933 1.388 -3.933 1.771 -4.129V-0.572C1.771 -0.342 1.771 -0.251 1.074 -0.251H0.809V0C0.934 -0.007 1.792 -0.028 2.05 -0.028C2.267 -0.028 3.145 -0.007 3.299 0V-0.251H3.034C2.336 -0.251 2.336 -0.342 2.336 -0.572V-4.435Z' id='g4-49'/>
+<path d='M2.929 -6.376C2.929 -6.615 2.929 -6.635 2.7 -6.635C2.082 -5.998 1.205 -5.998 0.887 -5.998V-5.689C1.086 -5.689 1.674 -5.689 2.192 -5.948V-0.787C2.192 -0.428 2.162 -0.309 1.265 -0.309H0.946V0C1.295 -0.03 2.162 -0.03 2.56 -0.03S3.826 -0.03 4.174 0V-0.309H3.856C2.959 -0.309 2.929 -0.418 2.929 -0.787V-6.376Z' id='g4-49-1'/>
+<path d='M2.022 -0.01C2.022 -0.667 1.773 -1.056 1.385 -1.056C1.056 -1.056 0.857 -0.807 0.857 -0.528C0.857 -0.259 1.056 0 1.385 0C1.504 0 1.634 -0.04 1.733 -0.13C1.763 -0.149 1.773 -0.159 1.783 -0.159S1.803 -0.149 1.803 -0.01C1.803 0.727 1.455 1.325 1.126 1.654C1.016 1.763 1.016 1.783 1.016 1.813C1.016 1.883 1.066 1.923 1.116 1.923C1.225 1.923 2.022 1.156 2.022 -0.01Z' id='g1-59'/>
+<path d='M2.838 -2.755H3.522C3.661 -2.755 3.752 -2.755 3.752 -2.908C3.752 -3.006 3.661 -3.006 3.536 -3.006H2.887C3.048 -3.891 3.103 -4.212 3.159 -4.414C3.194 -4.568 3.347 -4.714 3.515 -4.714C3.522 -4.714 3.71 -4.714 3.843 -4.631C3.557 -4.54 3.536 -4.289 3.536 -4.247C3.536 -4.094 3.654 -3.989 3.815 -3.989C4.003 -3.989 4.212 -4.149 4.212 -4.414C4.212 -4.735 3.87 -4.91 3.515 -4.91C3.208 -4.91 2.866 -4.735 2.678 -4.387C2.538 -4.129 2.483 -3.815 2.336 -3.006H1.785C1.646 -3.006 1.555 -3.006 1.555 -2.852C1.555 -2.755 1.646 -2.755 1.771 -2.755H2.287C2.28 -2.713 1.841 -0.202 1.674 0.544C1.639 0.697 1.52 1.227 1.186 1.227C1.179 1.227 1.011 1.227 0.879 1.144C1.165 1.053 1.186 0.802 1.186 0.76C1.186 0.607 1.067 0.502 0.907 0.502C0.718 0.502 0.509 0.663 0.509 0.928C0.509 1.241 0.837 1.423 1.186 1.423C1.632 1.423 1.939 0.962 2.022 0.809C2.273 0.342 2.434 -0.516 2.448 -0.6L2.838 -2.755Z' id='g3-102'/>
+<path d='M2.022 -0.01C2.022 -0.667 1.773 -1.056 1.385 -1.056C1.056 -1.056 0.857 -0.807 0.857 -0.528C0.857 -0.259 1.056 0 1.385 0C1.504 0 1.634 -0.04 1.733 -0.13C1.763 -0.149 1.773 -0.159 1.783 -0.159S1.803 -0.149 1.803 -0.01C1.803 0.727 1.455 1.325 1.126 1.654C1.016 1.763 1.016 1.783 1.016 1.813C1.016 1.883 1.066 1.923 1.116 1.923C1.225 1.923 2.022 1.156 2.022 -0.01Z' id='g2-59'/>
+<path d='M4.254 -6.047C4.324 -6.326 4.364 -6.386 4.483 -6.416C4.573 -6.436 4.902 -6.436 5.111 -6.436C6.117 -6.436 6.565 -6.396 6.565 -5.619C6.565 -5.469 6.526 -5.081 6.486 -4.822C6.476 -4.782 6.456 -4.663 6.456 -4.633C6.456 -4.573 6.486 -4.503 6.575 -4.503C6.685 -4.503 6.705 -4.583 6.725 -4.732L6.994 -6.466C7.004 -6.506 7.014 -6.605 7.014 -6.635C7.014 -6.745 6.914 -6.745 6.745 -6.745H1.215C0.976 -6.745 0.966 -6.735 0.897 -6.545L0.299 -4.792C0.289 -4.772 0.239 -4.633 0.239 -4.613C0.239 -4.553 0.289 -4.503 0.359 -4.503C0.458 -4.503 0.468 -4.553 0.528 -4.712C1.066 -6.257 1.325 -6.436 2.8 -6.436H3.188C3.467 -6.436 3.467 -6.396 3.467 -6.316C3.467 -6.257 3.437 -6.137 3.427 -6.107L2.092 -0.787C2.002 -0.418 1.973 -0.309 0.907 -0.309C0.548 -0.309 0.488 -0.309 0.488 -0.12C0.488 0 0.598 0 0.658 0C0.927 0 1.205 -0.02 1.474 -0.02C1.753 -0.02 2.042 -0.03 2.321 -0.03S2.879 -0.02 3.148 -0.02C3.437 -0.02 3.736 0 4.015 0C4.115 0 4.234 0 4.234 -0.199C4.234 -0.309 4.154 -0.309 3.895 -0.309C3.646 -0.309 3.517 -0.309 3.258 -0.329C2.969 -0.359 2.889 -0.389 2.889 -0.548C2.889 -0.558 2.889 -0.608 2.929 -0.757L4.254 -6.047Z' id='g2-84'/>
+<path d='M3.599 -2.225C3.599 -2.992 3.508 -3.543 3.187 -4.031C2.971 -4.352 2.538 -4.631 1.981 -4.631C0.363 -4.631 0.363 -2.727 0.363 -2.225S0.363 0.139 1.981 0.139S3.599 -1.723 3.599 -2.225ZM1.981 -0.056C1.66 -0.056 1.234 -0.244 1.095 -0.816C0.997 -1.227 0.997 -1.799 0.997 -2.315C0.997 -2.824 0.997 -3.354 1.102 -3.738C1.248 -4.289 1.695 -4.435 1.981 -4.435C2.357 -4.435 2.72 -4.205 2.845 -3.801C2.957 -3.424 2.964 -2.922 2.964 -2.315C2.964 -1.799 2.964 -1.283 2.873 -0.844C2.734 -0.209 2.26 -0.056 1.981 -0.056Z' id='g5-48'/>
+<path d='M5.189 -1.576C5.3 -1.576 5.467 -1.576 5.467 -1.743C5.467 -1.918 5.307 -1.918 5.189 -1.918H1.032C0.921 -1.918 0.753 -1.918 0.753 -1.75C0.753 -1.576 0.914 -1.576 1.032 -1.576H5.189Z' id='g1-0'/>
+<path d='M4.374 -7.093C4.423 -7.223 4.423 -7.263 4.423 -7.273C4.423 -7.382 4.334 -7.472 4.224 -7.472C4.154 -7.472 4.085 -7.442 4.055 -7.382L0.598 2.112C0.548 2.242 0.548 2.281 0.548 2.291C0.548 2.401 0.638 2.491 0.747 2.491C0.877 2.491 0.907 2.421 0.966 2.252L4.374 -7.093Z' id='g2-61'/>
+<path d='M5.071 -4.025C5.061 -4.055 5.021 -4.134 5.021 -4.164C5.021 -4.174 5.2 -4.314 5.31 -4.394L7.054 -5.738C7.99 -6.426 8.379 -6.466 8.677 -6.496C8.757 -6.506 8.857 -6.516 8.857 -6.695C8.857 -6.735 8.827 -6.804 8.747 -6.804C8.528 -6.804 8.279 -6.775 8.04 -6.775C7.681 -6.775 7.293 -6.804 6.934 -6.804C6.864 -6.804 6.745 -6.804 6.745 -6.605C6.745 -6.535 6.795 -6.506 6.864 -6.496C7.083 -6.476 7.173 -6.426 7.173 -6.286C7.173 -6.107 6.874 -5.878 6.814 -5.828L2.929 -2.839L3.726 -6.037C3.816 -6.396 3.836 -6.496 4.563 -6.496C4.812 -6.496 4.902 -6.496 4.902 -6.695C4.902 -6.785 4.822 -6.804 4.762 -6.804C4.483 -6.804 3.766 -6.775 3.487 -6.775C3.198 -6.775 2.491 -6.804 2.202 -6.804C2.132 -6.804 2.002 -6.804 2.002 -6.615C2.002 -6.496 2.092 -6.496 2.291 -6.496C2.421 -6.496 2.6 -6.486 2.72 -6.476C2.879 -6.456 2.939 -6.426 2.939 -6.316C2.939 -6.276 2.929 -6.247 2.899 -6.127L1.564 -0.777C1.465 -0.389 1.445 -0.309 0.658 -0.309C0.488 -0.309 0.379 -0.309 0.379 -0.12C0.379 0 0.498 0 0.528 0C0.807 0 1.514 -0.03 1.793 -0.03C2.002 -0.03 2.222 -0.02 2.431 -0.02C2.65 -0.02 2.869 0 3.078 0C3.148 0 3.278 0 3.278 -0.199C3.278 -0.309 3.188 -0.309 2.999 -0.309C2.63 -0.309 2.351 -0.309 2.351 -0.488C2.351 -0.558 2.411 -0.777 2.441 -0.927C2.58 -1.445 2.71 -1.973 2.839 -2.491L4.324 -3.646L5.479 -0.966C5.599 -0.697 5.599 -0.677 5.599 -0.618C5.599 -0.319 5.171 -0.309 5.081 -0.309C4.971 -0.309 4.862 -0.309 4.862 -0.11C4.862 0 4.981 0 5.001 0C5.4 0 5.818 -0.03 6.217 -0.03C6.436 -0.03 6.974 0 7.193 0C7.243 0 7.372 0 7.372 -0.199C7.372 -0.309 7.263 -0.309 7.173 -0.309C6.765 -0.319 6.635 -0.408 6.486 -0.757L5.071 -4.025Z' id='g2-75'/>
+<path d='M3.875 -2.77L1.883 -4.752C1.763 -4.872 1.743 -4.892 1.664 -4.892C1.564 -4.892 1.465 -4.802 1.465 -4.692C1.465 -4.623 1.484 -4.603 1.594 -4.493L3.587 -2.491L1.594 -0.488C1.484 -0.379 1.465 -0.359 1.465 -0.289C1.465 -0.179 1.564 -0.09 1.664 -0.09C1.743 -0.09 1.763 -0.11 1.883 -0.229L3.866 -2.212L5.928 -0.149C5.948 -0.139 6.017 -0.09 6.077 -0.09C6.197 -0.09 6.276 -0.179 6.276 -0.289C6.276 -0.309 6.276 -0.349 6.247 -0.399C6.237 -0.418 4.653 -1.983 4.154 -2.491L5.978 -4.314C6.027 -4.374 6.177 -4.503 6.227 -4.563C6.237 -4.583 6.276 -4.623 6.276 -4.692C6.276 -4.802 6.197 -4.892 6.077 -4.892C5.998 -4.892 5.958 -4.852 5.848 -4.742L3.875 -2.77Z' id='g0-2'/>
+<path d='M3.298 2.391C3.298 2.361 3.298 2.341 3.128 2.172C1.883 0.917 1.564 -0.966 1.564 -2.491C1.564 -4.224 1.943 -5.958 3.168 -7.203C3.298 -7.323 3.298 -7.342 3.298 -7.372C3.298 -7.442 3.258 -7.472 3.198 -7.472C3.098 -7.472 2.202 -6.795 1.614 -5.529C1.106 -4.433 0.986 -3.328 0.986 -2.491C0.986 -1.714 1.096 -0.508 1.644 0.618C2.242 1.843 3.098 2.491 3.198 2.491C3.258 2.491 3.298 2.461 3.298 2.391Z' id='g4-40'/>
+<path d='M2.879 -2.491C2.879 -3.268 2.77 -4.473 2.222 -5.599C1.624 -6.824 0.767 -7.472 0.667 -7.472C0.608 -7.472 0.568 -7.432 0.568 -7.372C0.568 -7.342 0.568 -7.323 0.757 -7.143C1.733 -6.157 2.301 -4.573 2.301 -2.491C2.301 -0.787 1.933 0.966 0.697 2.222C0.568 2.341 0.568 2.361 0.568 2.391C0.568 2.451 0.608 2.491 0.667 2.491C0.767 2.491 1.664 1.813 2.252 0.548C2.76 -0.548 2.879 -1.654 2.879 -2.491Z' id='g4-41'/>
+<path d='M4.742 -6.067C4.832 -6.187 4.832 -6.207 4.832 -6.416H2.411C1.196 -6.416 1.176 -6.545 1.136 -6.735H0.887L0.558 -4.682H0.807C0.837 -4.842 0.927 -5.469 1.056 -5.589C1.126 -5.649 1.903 -5.649 2.032 -5.649H4.095C3.985 -5.489 3.198 -4.403 2.979 -4.075C2.082 -2.73 1.753 -1.345 1.753 -0.329C1.753 -0.229 1.753 0.219 2.212 0.219S2.67 -0.229 2.67 -0.329V-0.837C2.67 -1.385 2.7 -1.933 2.78 -2.471C2.819 -2.7 2.959 -3.557 3.397 -4.174L4.742 -6.067Z' id='g4-55'/>
+<path d='M1.081 -3.891C1.437 -3.801 1.646 -3.801 1.757 -3.801C2.678 -3.801 3.222 -4.428 3.222 -4.533C3.222 -4.61 3.173 -4.631 3.138 -4.631C3.124 -4.631 3.11 -4.631 3.082 -4.61C2.915 -4.547 2.545 -4.407 2.029 -4.407C1.834 -4.407 1.465 -4.421 1.011 -4.596C0.941 -4.631 0.928 -4.631 0.921 -4.631C0.83 -4.631 0.83 -4.554 0.83 -4.442V-2.385C0.83 -2.267 0.83 -2.183 0.941 -2.183C1.004 -2.183 1.011 -2.197 1.081 -2.28C1.381 -2.664 1.806 -2.72 2.05 -2.72C2.469 -2.72 2.657 -2.385 2.692 -2.329C2.817 -2.099 2.859 -1.834 2.859 -1.43C2.859 -1.22 2.859 -0.809 2.65 -0.502C2.476 -0.251 2.176 -0.084 1.834 -0.084C1.381 -0.084 0.914 -0.335 0.739 -0.795C1.004 -0.774 1.137 -0.948 1.137 -1.137C1.137 -1.437 0.879 -1.492 0.788 -1.492C0.774 -1.492 0.439 -1.492 0.439 -1.116C0.439 -0.488 1.011 0.139 1.848 0.139C2.741 0.139 3.522 -0.523 3.522 -1.402C3.522 -2.19 2.922 -2.915 2.057 -2.915C1.75 -2.915 1.388 -2.838 1.081 -2.573V-3.891Z' id='g5-53'/>
+<path d='M7.572 -6.924C7.572 -6.954 7.552 -7.024 7.462 -7.024C7.432 -7.024 7.422 -7.014 7.313 -6.904L6.615 -6.137C6.526 -6.276 6.067 -7.024 4.961 -7.024C2.74 -7.024 0.498 -4.822 0.498 -2.511C0.498 -0.867 1.674 0.219 3.198 0.219C4.065 0.219 4.822 -0.179 5.35 -0.638C6.276 -1.455 6.446 -2.361 6.446 -2.391C6.446 -2.491 6.346 -2.491 6.326 -2.491C6.267 -2.491 6.217 -2.471 6.197 -2.391C6.107 -2.102 5.878 -1.395 5.191 -0.817C4.503 -0.259 3.875 -0.09 3.357 -0.09C2.461 -0.09 1.405 -0.608 1.405 -2.162C1.405 -2.73 1.614 -4.344 2.61 -5.509C3.218 -6.217 4.154 -6.715 5.041 -6.715C6.057 -6.715 6.645 -5.948 6.645 -4.792C6.645 -4.394 6.615 -4.384 6.615 -4.284S6.725 -4.184 6.765 -4.184C6.894 -4.184 6.894 -4.204 6.944 -4.384L7.572 -6.924Z' id='g2-67'/>
+<path d='M3.536 -1.743C3.536 -2.587 2.859 -3.243 2.036 -3.243C1.2 -3.243 0.537 -2.566 0.537 -1.75C0.537 -0.907 1.213 -0.251 2.036 -0.251C2.873 -0.251 3.536 -0.928 3.536 -1.743ZM2.036 -0.593C1.381 -0.593 0.879 -1.123 0.879 -1.743C0.879 -2.392 1.395 -2.901 2.036 -2.901C2.692 -2.901 3.194 -2.371 3.194 -1.75C3.194 -1.102 2.678 -0.593 2.036 -0.593Z' id='g1-14'/>
+<path d='M2.889 -3.507C3.706 -3.776 4.284 -4.473 4.284 -5.26C4.284 -6.077 3.407 -6.635 2.451 -6.635C1.445 -6.635 0.687 -6.037 0.687 -5.28C0.687 -4.951 0.907 -4.762 1.196 -4.762C1.504 -4.762 1.704 -4.981 1.704 -5.27C1.704 -5.768 1.235 -5.768 1.086 -5.768C1.395 -6.257 2.052 -6.386 2.411 -6.386C2.819 -6.386 3.367 -6.167 3.367 -5.27C3.367 -5.151 3.347 -4.573 3.088 -4.134C2.79 -3.656 2.451 -3.626 2.202 -3.616C2.122 -3.606 1.883 -3.587 1.813 -3.587C1.733 -3.577 1.664 -3.567 1.664 -3.467C1.664 -3.357 1.733 -3.357 1.903 -3.357H2.341C3.158 -3.357 3.527 -2.68 3.527 -1.704C3.527 -0.349 2.839 -0.06 2.401 -0.06C1.973 -0.06 1.225 -0.229 0.877 -0.817C1.225 -0.767 1.534 -0.986 1.534 -1.365C1.534 -1.724 1.265 -1.923 0.976 -1.923C0.737 -1.923 0.418 -1.783 0.418 -1.345C0.418 -0.438 1.345 0.219 2.431 0.219C3.646 0.219 4.553 -0.687 4.553 -1.704C4.553 -2.521 3.925 -3.298 2.889 -3.507Z' id='g4-51'/>
+<path d='M4.473 -2.002C4.473 -3.188 3.656 -4.184 2.58 -4.184C2.102 -4.184 1.674 -4.025 1.315 -3.676V-5.619C1.514 -5.559 1.843 -5.489 2.162 -5.489C3.387 -5.489 4.085 -6.396 4.085 -6.526C4.085 -6.585 4.055 -6.635 3.985 -6.635C3.975 -6.635 3.955 -6.635 3.905 -6.605C3.706 -6.516 3.218 -6.316 2.55 -6.316C2.152 -6.316 1.694 -6.386 1.225 -6.595C1.146 -6.625 1.126 -6.625 1.106 -6.625C1.006 -6.625 1.006 -6.545 1.006 -6.386V-3.437C1.006 -3.258 1.006 -3.178 1.146 -3.178C1.215 -3.178 1.235 -3.208 1.275 -3.268C1.385 -3.427 1.753 -3.965 2.56 -3.965C3.078 -3.965 3.328 -3.507 3.407 -3.328C3.567 -2.959 3.587 -2.57 3.587 -2.072C3.587 -1.724 3.587 -1.126 3.347 -0.707C3.108 -0.319 2.74 -0.06 2.281 -0.06C1.554 -0.06 0.986 -0.588 0.817 -1.176C0.847 -1.166 0.877 -1.156 0.986 -1.156C1.315 -1.156 1.484 -1.405 1.484 -1.644S1.315 -2.132 0.986 -2.132C0.847 -2.132 0.498 -2.062 0.498 -1.604C0.498 -0.747 1.186 0.219 2.301 0.219C3.457 0.219 4.473 -0.737 4.473 -2.002Z' id='g4-53'/>
+<path d='M3.019 -3.238H3.985C4.732 -3.238 4.812 -3.078 4.812 -2.79C4.812 -2.72 4.812 -2.6 4.742 -2.301C4.722 -2.252 4.712 -2.212 4.712 -2.192C4.712 -2.112 4.772 -2.072 4.832 -2.072C4.932 -2.072 4.932 -2.102 4.981 -2.281L5.529 -4.443C5.559 -4.553 5.559 -4.573 5.559 -4.603C5.559 -4.623 5.539 -4.712 5.44 -4.712S5.33 -4.663 5.29 -4.503C5.081 -3.726 4.852 -3.547 4.005 -3.547H3.098L3.736 -6.077C3.826 -6.426 3.836 -6.466 4.274 -6.466H5.589C6.814 -6.466 7.044 -6.137 7.044 -5.37C7.044 -5.141 7.044 -5.101 7.014 -4.832C6.994 -4.702 6.994 -4.682 6.994 -4.653C6.994 -4.603 7.024 -4.533 7.113 -4.533C7.223 -4.533 7.233 -4.593 7.253 -4.782L7.452 -6.506C7.482 -6.775 7.432 -6.775 7.183 -6.775H2.301C2.102 -6.775 2.002 -6.775 2.002 -6.575C2.002 -6.466 2.092 -6.466 2.281 -6.466C2.65 -6.466 2.929 -6.466 2.929 -6.286C2.929 -6.247 2.929 -6.227 2.879 -6.047L1.564 -0.777C1.465 -0.389 1.445 -0.309 0.658 -0.309C0.488 -0.309 0.379 -0.309 0.379 -0.12C0.379 0 0.498 0 0.528 0C0.817 0 1.554 -0.03 1.843 -0.03C2.172 -0.03 2.999 0 3.328 0C3.417 0 3.537 0 3.537 -0.189C3.537 -0.269 3.477 -0.289 3.477 -0.299C3.447 -0.309 3.427 -0.309 3.198 -0.309C2.979 -0.309 2.929 -0.309 2.68 -0.329C2.391 -0.359 2.361 -0.399 2.361 -0.528C2.361 -0.548 2.361 -0.608 2.401 -0.757L3.019 -3.238Z' id='g2-70'/>
+<path d='M2.929 -1.644V-0.777C2.929 -0.418 2.909 -0.309 2.172 -0.309H1.963V0C2.371 -0.03 2.889 -0.03 3.308 -0.03S4.254 -0.03 4.663 0V-0.309H4.453C3.716 -0.309 3.696 -0.418 3.696 -0.777V-1.644H4.692V-1.953H3.696V-6.486C3.696 -6.685 3.696 -6.745 3.537 -6.745C3.447 -6.745 3.417 -6.745 3.337 -6.625L0.279 -1.953V-1.644H2.929ZM2.989 -1.953H0.558L2.989 -5.669V-1.953Z' id='g4-52'/>
+<path d='M1.265 -0.767L2.321 -1.793C3.875 -3.168 4.473 -3.706 4.473 -4.702C4.473 -5.838 3.577 -6.635 2.361 -6.635C1.235 -6.635 0.498 -5.719 0.498 -4.832C0.498 -4.274 0.996 -4.274 1.026 -4.274C1.196 -4.274 1.544 -4.394 1.544 -4.802C1.544 -5.061 1.365 -5.32 1.016 -5.32C0.936 -5.32 0.917 -5.32 0.887 -5.31C1.116 -5.958 1.654 -6.326 2.232 -6.326C3.138 -6.326 3.567 -5.519 3.567 -4.702C3.567 -3.905 3.068 -3.118 2.521 -2.501L0.608 -0.369C0.498 -0.259 0.498 -0.239 0.498 0H4.194L4.473 -1.733H4.224C4.174 -1.435 4.105 -0.996 4.005 -0.847C3.935 -0.767 3.278 -0.767 3.059 -0.767H1.265Z' id='g4-50'/>
+<path d='M3.656 -3.168V-2.849C3.656 -0.518 2.62 -0.06 2.042 -0.06C1.873 -0.06 1.335 -0.08 1.066 -0.418C1.504 -0.418 1.584 -0.707 1.584 -0.877C1.584 -1.186 1.345 -1.335 1.126 -1.335C0.966 -1.335 0.667 -1.245 0.667 -0.857C0.667 -0.189 1.205 0.219 2.052 0.219C3.337 0.219 4.553 -1.136 4.553 -3.278C4.553 -5.958 3.407 -6.635 2.521 -6.635C1.973 -6.635 1.484 -6.456 1.056 -6.007C0.648 -5.559 0.418 -5.141 0.418 -4.394C0.418 -3.148 1.295 -2.172 2.411 -2.172C3.019 -2.172 3.427 -2.59 3.656 -3.168ZM2.421 -2.401C2.262 -2.401 1.803 -2.401 1.494 -3.029C1.315 -3.397 1.315 -3.895 1.315 -4.384C1.315 -4.922 1.315 -5.39 1.524 -5.758C1.793 -6.257 2.172 -6.386 2.521 -6.386C2.979 -6.386 3.308 -6.047 3.477 -5.599C3.597 -5.28 3.636 -4.653 3.636 -4.194C3.636 -3.367 3.298 -2.401 2.421 -2.401Z' id='g4-57'/>
+<path d='M6.844 -3.258C6.994 -3.258 7.183 -3.258 7.183 -3.457S6.994 -3.656 6.854 -3.656H0.887C0.747 -3.656 0.558 -3.656 0.558 -3.457S0.747 -3.258 0.897 -3.258H6.844ZM6.854 -1.325C6.994 -1.325 7.183 -1.325 7.183 -1.524S6.994 -1.724 6.844 -1.724H0.897C0.747 -1.724 0.558 -1.724 0.558 -1.524S0.747 -1.325 0.887 -1.325H6.854Z' id='g4-61'/>
+<path d='M1.913 -0.528C1.913 -0.817 1.674 -1.056 1.385 -1.056S0.857 -0.817 0.857 -0.528S1.096 0 1.385 0S1.913 -0.239 1.913 -0.528Z' id='g2-58'/>
+<path d='M2.57 -6.804C2.57 -6.814 2.57 -6.914 2.441 -6.914C2.212 -6.914 1.484 -6.834 1.225 -6.814C1.146 -6.804 1.036 -6.795 1.036 -6.605C1.036 -6.496 1.136 -6.496 1.285 -6.496C1.763 -6.496 1.773 -6.406 1.773 -6.326L1.743 -6.127L0.488 -1.146C0.458 -1.036 0.438 -0.966 0.438 -0.807C0.438 -0.239 0.877 0.11 1.345 0.11C1.674 0.11 1.923 -0.09 2.092 -0.448C2.271 -0.827 2.391 -1.405 2.391 -1.425C2.391 -1.524 2.301 -1.524 2.271 -1.524C2.172 -1.524 2.162 -1.484 2.132 -1.345C1.963 -0.697 1.773 -0.11 1.375 -0.11C1.076 -0.11 1.076 -0.428 1.076 -0.568C1.076 -0.807 1.086 -0.857 1.136 -1.046L2.57 -6.804Z' id='g2-108'/>
+<path d='M1.863 -2.301C2.152 -2.301 2.889 -2.321 3.387 -2.531C4.085 -2.829 4.134 -3.417 4.134 -3.557C4.134 -3.995 3.756 -4.403 3.068 -4.403C1.963 -4.403 0.458 -3.437 0.458 -1.694C0.458 -0.677 1.046 0.11 2.022 0.11C3.447 0.11 4.284 -0.946 4.284 -1.066C4.284 -1.126 4.224 -1.196 4.164 -1.196C4.115 -1.196 4.095 -1.176 4.035 -1.096C3.248 -0.11 2.162 -0.11 2.042 -0.11C1.265 -0.11 1.176 -0.946 1.176 -1.265C1.176 -1.385 1.186 -1.694 1.335 -2.301H1.863ZM1.395 -2.521C1.783 -4.035 2.809 -4.184 3.068 -4.184C3.537 -4.184 3.806 -3.895 3.806 -3.557C3.806 -2.521 2.212 -2.521 1.803 -2.521H1.395Z' id='g2-101'/>
+<path d='M2.052 -3.985H2.989C3.188 -3.985 3.288 -3.985 3.288 -4.184C3.288 -4.294 3.188 -4.294 3.009 -4.294H2.132C2.491 -5.709 2.54 -5.908 2.54 -5.968C2.54 -6.137 2.421 -6.237 2.252 -6.237C2.222 -6.237 1.943 -6.227 1.853 -5.878L1.465 -4.294H0.528C0.329 -4.294 0.229 -4.294 0.229 -4.105C0.229 -3.985 0.309 -3.985 0.508 -3.985H1.385C0.667 -1.156 0.628 -0.986 0.628 -0.807C0.628 -0.269 1.006 0.11 1.544 0.11C2.56 0.11 3.128 -1.345 3.128 -1.425C3.128 -1.524 3.049 -1.524 3.009 -1.524C2.919 -1.524 2.909 -1.494 2.859 -1.385C2.431 -0.349 1.903 -0.11 1.564 -0.11C1.355 -0.11 1.255 -0.239 1.255 -0.568C1.255 -0.807 1.275 -0.877 1.315 -1.046L2.052 -3.985Z' id='g2-116'/>
+<path d='M1.624 -4.553C1.166 -4.852 1.126 -5.191 1.126 -5.36C1.126 -5.968 1.773 -6.386 2.481 -6.386C3.208 -6.386 3.846 -5.868 3.846 -5.151C3.846 -4.583 3.457 -4.105 2.859 -3.756L1.624 -4.553ZM3.078 -3.606C3.796 -3.975 4.284 -4.493 4.284 -5.151C4.284 -6.067 3.397 -6.635 2.491 -6.635C1.494 -6.635 0.687 -5.898 0.687 -4.971C0.687 -4.792 0.707 -4.344 1.126 -3.875C1.235 -3.756 1.604 -3.507 1.853 -3.337C1.275 -3.049 0.418 -2.491 0.418 -1.504C0.418 -0.448 1.435 0.219 2.481 0.219C3.606 0.219 4.553 -0.608 4.553 -1.674C4.553 -2.032 4.443 -2.481 4.065 -2.899C3.875 -3.108 3.716 -3.208 3.078 -3.606ZM2.082 -3.188L3.308 -2.411C3.587 -2.222 4.055 -1.923 4.055 -1.315C4.055 -0.578 3.308 -0.06 2.491 -0.06C1.634 -0.06 0.917 -0.677 0.917 -1.504C0.917 -2.082 1.235 -2.72 2.082 -3.188Z' id='g4-56'/>
+</defs>
+</svg>
+
+</body>
+
+</html>
