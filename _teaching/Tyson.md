@@ -3,7 +3,7 @@ title: "Tyson Gonzalez"
 collection: teaching
 type: "BJM operator"
 permalink: /teaching/Tyson
-venue: "Material Cuting Station"
+venue: "Material Cutting Station"
 date: 2018-01-30
 location:
 ---

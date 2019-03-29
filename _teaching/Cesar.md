@@ -3,7 +3,7 @@ title: "Cesar Torres"
 collection: teaching
 type: "Helper, Hardware Assembler"
 permalink: /teaching/Cesar
-venue: "Hardware, Glazing beads cuting, Glazing Stations"
+venue: "Hardware, Glazing beads cutting, Glazing Stations"
 date: 2018-01-29
 location:
 ---

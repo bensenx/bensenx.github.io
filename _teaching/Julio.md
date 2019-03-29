@@ -3,7 +3,7 @@ title: "Julio Marquez"
 collection: teaching
 type: "Operator, Arch maker"
 permalink: /teaching/Julio
-venue: "Glazing beads cuting, Door, Arch Station"
+venue: "Glazing beads cutting, Door, Arch Station"
 date: 2018-01-29
 location:
 ---

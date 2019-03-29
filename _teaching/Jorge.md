@@ -1,9 +1,9 @@
 ---
 title: "Jorge Munoz"
 collection: teaching
-type: "Assempler"
+type: "Assembler"
 permalink: /teaching/Jorge
-venue: "Assemply Station"
+venue: "Assembly Station"
 date: 2018-01-29
 location:
 ---

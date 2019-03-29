@@ -3,7 +3,7 @@ title: "Fidel Munoz"
 collection: teaching
 type: "Technician"
 permalink: /teaching/Fidel
-venue: "Machinary technician, Door Station"
+venue: "Machinery Technician, Door Station"
 date: 2018-01-30
 location:
 ---
