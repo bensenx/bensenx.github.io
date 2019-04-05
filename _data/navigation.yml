@@ -14,12 +14,12 @@ main:
     url: /portfolio/
 
 
-#  - title: "Photos"
-#    url: /year-archive/
+  - title: "Photos"
+   url: /year-archive/
 
 
 #  - title: "CV"
 #    url: /cv/
 
 #  - title: "Guide"
-#    url: /markdown/
+    url: /markdown/
