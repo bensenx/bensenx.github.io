@@ -7,11 +7,11 @@ main:
     url: /projects/
 
   - title: "Employees"
-    url: /teaching/
+    url: /employees/
 
 
   - title: "Improvement"
-    url: /portfolio/
+    url: /improvements/
 
 
   - title: "Photos"
