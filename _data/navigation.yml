@@ -3,19 +3,19 @@ main:
 #  - title: "Publications"
 #    url: /publications/
 
-  - title: "Projects"
+   - title: "Projects"
     url: /projects/
 
-  - title: "Employees"
+   - title: "Employees"
     url: /employees/
 
 
-  - title: "Improvement"
+   - title: "Improvement"
     url: /improvements/
 
 
-  - title: "Photos"
-   url: /year-archive/
+   - title: "Photos"
+    url: /year-archive/
 
 
 #  - title: "CV"
