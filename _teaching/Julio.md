@@ -20,3 +20,16 @@ Achievements of Julio:
 * Make the wall for water penetration test
 * Learn to assemble the casement window for SONAX and receive high evaluation when temporary work in SONAX
 * One of the main members providing wheeler job site service
+
+Responsibility of Julio in Eurotek production：
+* Make arch for ordinary Eurotek Profiles and complex Duarte profiles
+* Cut glazing beads
+* Windows mullion assembly
+* Mullion end mill
+* Prepare tools and work on the test sample unit in the AAMA testing
+* Conduct the in house water performance test in the dummy wall
+* Assist swing door assembly, hardware installation
+* Assist smart slide door assembly, hardware installation
+* Assist lift and slide door frame cutting, assembly, hardware installation
+* Assist Mulled unit assembly
+* Assist hopper window hardware installation

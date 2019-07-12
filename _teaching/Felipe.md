@@ -17,3 +17,11 @@ Achievements of Felipe:
 * Use the [registration system](https://bensenx.github.io/improvements/registration) to book complete unit into cart
 * One of the main members providing wheeler job site service
 * Develop the new way that using clamp to help install the aluminum glazing beads
+
+Responsibility of Felipe in Eurotek:
+* Glaze the windows and doors
+* Cut glazing bead
+* Assemble the units
+* Load units to racks
+* Operate folk lifter for relocating racks/profile bundles
+* Operate corner cleaner when needed
